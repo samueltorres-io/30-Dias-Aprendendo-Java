@@ -1,0 +1,9 @@
+30 Dias Aprendendo Java ☕  - Dia 1
+
+Hoje foi o primeiro dia do meu desafio de 30 dias aprendendo Java! 
+
+Foquei em entender a sintaxe básica da linguagem, sobre variáveis e tipos de dados. Também pratiquei manipulação de strings, explorando métodos como toUpperCase(), toLowerCase() e length(). Para testar a parte matemática, trabalhei com a classe Math, gerando números aleatórios e armazenando em arrays.
+
+Foi um dia de muitos aprendizados, e já estou animado para continuar! O código completo de hoje está no meu GitHub. Você pode conferir aqui: [Link para o código no GitHub] (incluir link aqui).
+
+#Java #Programação #DesafioDe30Dias #Aprendizado
