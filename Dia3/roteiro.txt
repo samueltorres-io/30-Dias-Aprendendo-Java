@@ -1,0 +1,14 @@
+30 Dias Aprendendo Java ☕ - Dia 3
+Hoje foi o terceiro dia do meu desafio de 30 dias aprendendo Java! 🚀
+
+No estudo de hoje, me aprofundei nos laços de repetição em Java, como o while, do-while, for e for-each, além de explorar o uso de break e continue para controle de fluxo dentro desses loops. Utilizei essas estruturas para realizar diversas iterações, como gerar sequências numéricas e percorrer arrays.
+
+Criei uma aplicação que gera uma sequência aleatória de caracteres (uma espécie de "salt"), onde usei o for para preencher um array com valores sorteados de um conjunto de opções, e o for-each para exibir os resultados. Também pratiquei a implementação da famosa sequência de Fibonacci usando o while e break para interromper a execução quando necessário.
+
+Com isso, consegui entender melhor como controlar a repetição de ações no código e como manipular arrays de maneira mais eficiente!
+
+O código completo de hoje está no meu GitHub. Você pode conferir aqui:
+
+Blog sobre Tecnologia: https://lnkd.in/dSfcViBj
+
+#java #projeto30dias #aprenderJava
