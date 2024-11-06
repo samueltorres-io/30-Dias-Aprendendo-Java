@@ -1,0 +1,13 @@
+30 Dias Aprendendo Java ☕ - Dia 2
+Hoje foi o segundo dia do meu desafio de 30 dias aprendendo Java! 🚀
+
+Foquei no aprendizado de condicionais em Java, como o if-else e o switch-case, e também explorei o uso do parâmetro args[], que é utilizado para passar argumentos ao programa via linha de comando. Para fixar esses conceitos, criei uma calculadora simples via terminal, onde implementei operações como soma, subtração, multiplicação e divisão. Além disso, estudei a como declarar e usar métodos, passando parâmetros para eles, o que torna o código mais modular e reutilizável.
+
+Aprendi bastante sobre como controlar o fluxo do programa com as condicionais e organizar o código de forma mais eficiente utilizando métodos e condicionais.
+
+O código completo de hoje está no meu GitHub. Você pode conferir aqui: https://github.com/samueltorres-io/30-Dias-Aprendendo-Java
+
+Blog sobre Tecnologia: https://lnkd.in/dSfcViBj
+
+
+#java #projeto30dias #aprenderJava
