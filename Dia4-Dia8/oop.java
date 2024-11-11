@@ -89,3 +89,41 @@ public class Main {
         System.out.println(person.getName());
     }
 }
+
+
+
+// Heranca
+
+// Heranca (subclasses e superclasses)
+// extends para herdar uma classe.
+
+public class Main {
+    public static void main(String[] args) {
+        Boy samuel = new Boy();
+        
+        samuel.say("Hello World!");
+        
+        samuel.setAge(19);
+        samuel.say("I am " + samuel.getAge() + " years old.");
+        
+    }
+}
+
+class Person {
+    protected String nationality = "Brazilian";
+    public void say(String phrase) {
+        System.out.println(phrase);
+    }
+}
+
+class Boy extends Person {
+    private int age = 18;
+    
+    public int getAge() {
+        return this.age;
+    }
+    
+    public void setAge(int newAge) {
+        this.age = newAge;
+    }
+}
