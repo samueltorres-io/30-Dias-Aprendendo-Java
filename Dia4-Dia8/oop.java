@@ -42,9 +42,25 @@ public class Main {
     
 }
 
+
 // O nome do costrutor e correspondente ao nome da classe;
 // O construtor e chamado quando um novo objeto e criado: Main();
 // Toda classe tem um construtor! Se não definirmos um, o java cria por padrao, mas nao conseguiremos definir valores iniciais para o objeto.
 
 
+// Podemos passar parametros para o construtor:
 
+public class Main {
+    String name;
+    
+    // Construtor da classe
+    public Main(String newName) {
+        name = newName;
+    }
+    
+    public static void main(String[] args) {
+        Main myObj = new Main("Samuel Torres Fernandes");
+        System.out.println(myObj.name);
+    }
+    
+}
