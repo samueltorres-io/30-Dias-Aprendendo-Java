@@ -64,3 +64,28 @@ public class Main {
     }
     
 }
+
+
+// Encapsulamento (getters e setters)
+
+class Person {
+// Quando definirmos a classe Person como public, devemos criar um novo arquivo para essa classe chamado Person.java e escrever essa classe nesse arquivo. Mas para ussar em uma ide online de java basica, podemos apenas criar a classe e deixar que o java anexe um parametro default a essa classe.
+    private String name;
+    
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+    public String getName() {
+        return name;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Person person = new Person();
+        
+        person.setName("Test");
+        System.out.println(person.getName());
+    }
+}
