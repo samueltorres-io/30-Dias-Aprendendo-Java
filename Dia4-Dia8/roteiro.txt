@@ -1,1 +1,10 @@
-.
+30 Dias Aprendendo Java ☕ - Dias 4 a 8
+Hoje, no meu desafio de 30 dias aprendendo Java, mergulhei profundamente no universo da orientação a objetos (OO)! 🚀
+
+Nos últimos dias, me concentrei nos 4 pilares fundamentais dessa abordagem: Encapsulamento, Abstração, Herança e Polimorfismo. Esses conceitos são essenciais para escrever código mais organizado, reutilizável e fácil de manter.
+
+O código completo de hoje está no meu GitHub. Você pode conferir aqui: https://github.com/samueltorres-io/30-Dias-Aprendendo-Java
+
+Blog sobre Tecnologia: https://lnkd.in/dSfcViBj
+
+#java #orientacaoaobjetos #programação #desafio30dias #aprenderJava
