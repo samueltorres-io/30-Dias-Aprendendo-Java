@@ -160,3 +160,30 @@ class Main {
     myDog.animalSound();
   }
 }
+
+
+
+abstract class Person {
+    
+    // O metodo abstrato e declarado dentro do metodo abstrato mas nao tem implementacao nessa classe, apenas em uma subclasse herdada da superclasse. Isso significa que o metodo abstrato nao faz nada, pois a intencao e ele ser implementado na classe herdada.
+    public abstract void gritar();
+    
+    public void dormir() {
+        System.out.println("Zzz...");
+    }
+}
+
+class Man extends Person {
+    public void gritar() {
+        System.out.println("Homem gritando: Haaaaaaaaaaaa");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Man samuka = new Man();
+        
+        samuka.gritar();
+        
+    }
+}
