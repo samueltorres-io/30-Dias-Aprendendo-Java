@@ -187,3 +187,86 @@ public class Main {
         
     }
 }
+
+
+
+
+Samuel Torres Fernandes <torresfernandessamuel@gmail.com>
+10:05 (há 10 horas)
+para mim
+
+interface Person {
+    public void scream();
+    public void say(String text);
+    // Classes abstratas nao tem body, mas recebem aprametros nos metodos sem problemas.
+}
+
+class Man implements Person {
+    public void scream() {
+        System.out.println("Aaaaa!!!");
+    }
+    public void say(String text) {
+        System.out.println("He says: " + text);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Man samuka = new Man();
+        samuka.scream();
+        samuka.say("Ja viu meu Blog? samueltorres.io");
+    }
+}
+
+
+
+//Input
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner obj = new Scanner(System.in);
+        System.out.println("Choice your nickname: ");
+       
+        String nickName = obj.nextLine();
+        System.out.println(nickName);
+    }
+}
+
+// nextBoolean() Reads a boolean value from the user
+// nextByte() Reads a byte value from the user
+// nextDouble() Reads a double value from the user
+// nextFloat() Reads a float value from the user
+// nextInt() Reads a int value from the user
+// nextLine() Reads a String value from the user
+// nextLong() Reads a long value from the user
+// nextShort() Reads a short value from the user
+
+
+
+
+
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+       
+        ArrayList<String> attributes = new ArrayList<String>();
+       
+        attributes.add("Damage");
+        System.out.println(attributes.get(0));
+       
+        attributes.set(0, "Life");
+        System.out.println(attributes.get(0));
+       
+        System.out.println(attributes.size());
+       
+        attributes.remove(0);
+       
+        attributes.add("Heart");
+        System.out.println(attributes.get(0));
+       
+        attributes.clear();
+       
+    }
+}
